@@ -20,7 +20,7 @@ export default class Header extends Component {
               </span>
             </h1>
             <div className="lg:w-1/3 inline-flex lg:justify-end ml-5 lg:ml-0">
-              <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+              <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                 Ask Question
               </button>
             </div>

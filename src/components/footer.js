@@ -3,10 +3,13 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
-        <footer className="text-gray-500 bg-gray-900 body-font  pin-b">
+      <div className="footer">
+        <footer className="text-gray-500 bg-gray-900 body-font flex ">
           <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <a
+              className="flex title-font font-medium items-center md:justify-start justify-center text-white"
+              href="https://cryptocodeschool.in/tezos"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -25,7 +28,10 @@ export default class Footer extends Component {
             </a>
 
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-              <a className="text-gray-600">
+              <a
+                className="text-gray-600"
+                href="https://cryptocodeschool.in/tezos"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -39,16 +45,28 @@ export default class Footer extends Component {
                   />
                 </svg>
               </a>
-              <a className="ml-3 text-gray-600">
+              <a
+                className="ml-3 text-gray-600"
+                href="https://cryptocodeschool.in/tezos"
+              >
                 <span className="ml-3 text-l text-white">Prev</span>
               </a>
-              <a className="ml-3 text-gray-600">
+              <a
+                className="ml-3 text-gray-600"
+                href="https://cryptocodeschool.in/tezos"
+              >
                 <span className="ml-3 text-l text-white">3/15</span>
               </a>
-              <a className="ml-3 text-gray-600">
+              <a
+                className="ml-3 text-gray-600"
+                href="https://cryptocodeschool.in/tezos"
+              >
                 <span className="ml-3 text-l text-white">Next</span>
               </a>
-              <a className="text-gray-600">
+              <a
+                className="text-gray-600"
+                href="https://cryptocodeschool.in/tezos"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

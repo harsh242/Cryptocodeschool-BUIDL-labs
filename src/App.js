@@ -1,4 +1,6 @@
 import React from "react";
+import "./assets/css/style.css";
+
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Center from "./components/center";
@@ -6,8 +8,8 @@ import Center from "./components/center";
 function App() {
   return (
     <div className="App">
-      <div className="min-h-screen flex flex-col">
-        <Header />
+      <Header />
+      <div className=" flex flex-col">
         <Center />
         <Footer />
       </div>
